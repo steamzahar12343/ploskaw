@@ -1,13 +1,13 @@
 extends CharacterBody2D
 
 
-const  SPEED = 1000
+const  SPEED = 10
 
 
 func _physics_process(delta):
 	
 	if true:
-		velocity.x += SPEED
+		velocity.x = SPEED
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 

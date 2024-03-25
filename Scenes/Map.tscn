@@ -1,13 +1,17 @@
-[gd_scene load_steps=2 format=3 uid="uid://7i6ob3wsc71k"]
+[gd_scene load_steps=3 format=3 uid="uid://7i6ob3wsc71k"]
 
+[ext_resource type="PackedScene" uid="uid://dvifjw4xij5er" path="res://Scenes/Player.tscn" id="1_tg33w"]
 [ext_resource type="PackedScene" uid="uid://bc5frr0ujol7i" path="res://Scenes/CloseGameButton.tscn" id="2_5136r"]
 
 [node name="Map" type="Node2D"]
 metadata/_edit_vertical_guides_ = [-384990.0, -451422.0]
 
-[node name="Node2D" type="Node2D" parent="."]
+[node name="ExitButon" type="Node2D" parent="."]
+
+[node name="Player" parent="." instance=ExtResource("1_tg33w")]
+position = Vector2(30, 10)
 
 [node name="CloseGameButton" parent="." instance=ExtResource("2_5136r")]
-offset_left = 1881.0
-offset_right = 1899.0
-offset_bottom = 21.0
+offset_left = 1900.0
+offset_right = 1920.0
+offset_bottom = 22.0

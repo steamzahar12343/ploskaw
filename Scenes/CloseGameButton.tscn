@@ -1,8 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://bc5frr0ujol7i"]
 
 [ext_resource type="Texture2D" uid="uid://dsaeygtss5tik" path="res://icon.svg" id="1_38n8s"]
-
-[sub_resource type="GDScript" id="GDScript_ht5gm"]
+[ext_resource type="Script" path="res://Scripts/CloseGameButtonControll.gd" id="1_724qd"]
 
 [node name="CloseGameButton" type="Control"]
 layout_mode = 3
@@ -13,16 +12,14 @@ grow_horizontal = 2
 grow_vertical = 2
 
 [node name="Button" type="Button" parent="."]
-layout_mode = 1
-anchors_preset = -1
-anchor_right = 0.011
-anchor_bottom = 0.02
-offset_right = -0.120001
-offset_bottom = 0.399998
-button_mask = 7
-script = SubResource("GDScript_ht5gm")
+layout_mode = 0
+offset_right = 20.0
+offset_bottom = 22.0
+script = ExtResource("1_724qd")
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="Sprite2D" type="Sprite2D" parent="Button"]
 position = Vector2(10, 11)
 scale = Vector2(0.160156, 0.171875)
 texture = ExtResource("1_38n8s")
+
+[connection signal="pressed" from="Button" to="Button" method="_on_pressed"]
