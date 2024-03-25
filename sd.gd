@@ -1,4 +1,4 @@
 extends Node3D
 def print():
-	pass
-	
+	game_manager():
+		printed(self.newFase)
