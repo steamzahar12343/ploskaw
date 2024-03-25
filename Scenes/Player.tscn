@@ -9,5 +9,5 @@
 script = ExtResource("2_nimej")
 
 [node name="Icon" type="Sprite2D" parent="CharacterBody2D"]
-position = Vector2(66, 62)
+position = Vector2(0, -64)
 texture = ExtResource("1_24nvb")

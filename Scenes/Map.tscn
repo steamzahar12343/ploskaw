@@ -7,7 +7,7 @@
 metadata/_edit_vertical_guides_ = [-384990.0, -451422.0]
 
 [node name="Player" parent="." instance=ExtResource("1_tg33w")]
-position = Vector2(-2, 1)
+position = Vector2(63, 128)
 
 [node name="CloseGameButton" parent="." instance=ExtResource("2_5136r")]
 offset_left = 1910.0
