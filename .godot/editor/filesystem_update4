@@ -1,4 +1,3 @@
 res://Scenes/Map.tscn
 res://Scenes/Player.tscn
 res://Scenes/CloseGameButton.tscn
-res://Scripts/CloseGameButtonControll.gd
