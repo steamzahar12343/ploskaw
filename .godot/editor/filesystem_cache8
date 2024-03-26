@@ -1,9 +1,10 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1711391639
-::res://Scenes/::1711386665
-CloseGameButton.tscn::PackedScene::2589064579489537076::1711386529::0::1::::<><>::uid://dsaeygtss5tik::::res://Sprites/icon.svg<>res://Scripts/CloseGameButtonControll.gd
-Map.tscn::PackedScene::2264465343141567086::1711386665::0::1::::<><>::uid://dvifjw4xij5er::::res://Scenes/Player.tscn<>uid://bc5frr0ujol7i::::res://Scenes/CloseGameButton.tscn
-Player.tscn::PackedScene::8650063647988563065::1711386529::0::1::::<><>::uid://dsaeygtss5tik::::res://Sprites/icon.svg<>res://Scripts/PlayerController.gd
+::res://::1711466316
+export_presets.cfg::TextFile::-1::1711392096::0::1::::<><>::
+::res://Scenes/::1711459776
+CloseGameButton.tscn::PackedScene::2589064579489537076::1711459776::0::1::::<><>::uid://dsaeygtss5tik::::res://Sprites/icon.svg<>res://Scripts/CloseGameButtonControll.gd
+Map.tscn::PackedScene::2264465343141567086::1711459776::0::1::::<><>::uid://dvifjw4xij5er::::res://Scenes/Player.tscn<>uid://bc5frr0ujol7i::::res://Scenes/CloseGameButton.tscn
+Player.tscn::PackedScene::8650063647988563065::1711459776::0::1::::<><>::uid://dsaeygtss5tik::::res://Sprites/icon.svg<>res://Scripts/PlayerController.gd
 ::res://Scripts/::1711386518
 CloseGameButtonControll.gd::GDScript::-1::1711387637::0::1::::<>Button<>::
 PlayerController.gd::GDScript::-1::1711384641::0::1::::<>CharacterBody2D<>::
