@@ -20,10 +20,10 @@ offset_bottom = -114.0
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0
-offset_left = -330.0
-offset_top = -258.0
-offset_right = -9.0
-offset_bottom = -114.0
+offset_left = -333.0
+offset_top = -246.0
+offset_right = -12.0
+offset_bottom = -102.0
 
 [node name="TextEdit" type="TextEdit" parent="."]
 layout_mode = 0
