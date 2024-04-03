@@ -1,10 +1,8 @@
 extends Control
 
-var ref = false
+var Text = " "
 
 func _on_button_pressed():
-	if(ref):
-		$Label.set_text("df")
-	else:
-		$Label.set_text("poog")
-	ref = !ref
+	$Label.set_text("df")
+	Text = $TextEdit.get_text()
+	$Label.set_text(Text)

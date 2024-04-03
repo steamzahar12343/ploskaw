@@ -5,20 +5,22 @@
 [ext_resource type="PackedScene" uid="uid://bpi78jlk5i0cc" path="res://Scenes/UI.tscn" id="3_mdscu"]
 
 [node name="Map" type="Node2D"]
-position = Vector2(-1, -1)
+position = Vector2(-1, 0)
 metadata/_edit_vertical_guides_ = [-384990.0, -451422.0]
 
 [node name="Player" parent="." instance=ExtResource("1_tg33w")]
-position = Vector2(76, 129)
+position = Vector2(68, 131)
 
 [node name="CloseGameButton" parent="." instance=ExtResource("2_5136r")]
 offset_left = 1911.0
 offset_top = 1.0
 offset_right = 1921.0
 offset_bottom = 11.0
+metadata/_edit_use_anchors_ = true
 
 [node name="Control" parent="." instance=ExtResource("3_mdscu")]
-offset_left = 163.0
-offset_top = 23.0
-offset_right = 163.0
-offset_bottom = 23.0
+offset_left = 637.0
+offset_top = 384.0
+offset_right = 637.0
+offset_bottom = 384.0
+metadata/_edit_use_anchors_ = true
